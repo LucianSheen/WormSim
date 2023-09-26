@@ -1,0 +1,69 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (worm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Performing Custom Build Tools
+  wormpy_wrap.cxx
+     Creating library C:\Users\Tom Portegys\Downloads\WormSim\Model\Release\_wormpy.lib and object C:\Users\Tom Portegys\Downloads\WormSim\Model\Release\_wormpy.exp
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_SetAttr
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyBool_FromLong
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_Malloc
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_dorsal_muscle_activation(int)" (?get_dorsal_muscle_activation@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_Occurred
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_GenericGetAttr
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_RuntimeError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_IOError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyLong_FromLong
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyUnicode_Concat
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__Py_BuildValue
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_MemoryError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyFloat_AsDouble
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_ventral_motor_activation(int)" (?get_ventral_motor_activation@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyDict_SetItemString
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyFloat_FromDouble
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "int __cdecl init(void)" (?init@@YAHXZ)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_AttributeError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_body_point(int)" (?get_body_point@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_SetString
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_ZeroDivisionError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_WriteUnraisable
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_ValueError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyFloat_Type
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "void __cdecl term(void)" (?term@@YAXXZ)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyType_IsSubtype
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_Restore
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_OverflowError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyModule_GetDict
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_Free
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyCapsule_GetPointer
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyModule_AddObject
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_Fetch
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_CallFunctionObjArgs
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyLong_AsLong
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_Init
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyUnicode_FromFormat
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyModule_Create2
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyImport_AddModule
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyType_Ready
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_SyntaxError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyErr_Clear
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyLong_AsDouble
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyCapsule_New
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_dorsal_motor_activation(int)" (?get_dorsal_motor_activation@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_ventral_muscle_activation(int)" (?get_ventral_muscle_activation@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyInstanceMethod_New
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyLong_FromVoidPtr
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyCapsule_Import
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__Py_DecRef
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp___Py_NotImplementedStruct
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_steering_activation(int)" (?get_steering_activation@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp___PyObject_New
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_TypeError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "double __cdecl get_segment_angle(int)" (?get_segment_angle@@YANH@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_IsTrue
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_IndexError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyArg_UnpackTuple
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyExc_SystemError
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "void __cdecl set_steering_synapse_weight(int,double)" (?set_steering_synapse_weight@@YAXHN@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyUnicode_FromString
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyObject_Call
+wormpy_wrap.obj : error LNK2001: unresolved external symbol "void __cdecl step(double)" (?step@@YAXN@Z)
+wormpy_wrap.obj : error LNK2001: unresolved external symbol __imp__PyArg_ParseTuple
+C:\Users\Tom Portegys\Downloads\WormSim\Model\Release\_wormpy.pyd : fatal error LNK1120: 64 unresolved externals

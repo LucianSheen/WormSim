@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (wormpy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ida.c
+  ida_band.c
+  ida_bbdpre.c
+  ida_dense.c
+  ida_ic.c
+  ida_io.c
+  ida_spbcgs.c
+  ida_spgmr.c
+  ida_spils.c
+  ida_sptfqmr.c
+  fnvector_serial.c
+  nvector_serial.c
+  sundials_band.c
+  sundials_dense.c
+  sundials_iterative.c
+  sundials_math.c
+  sundials_nvector.c
+  sundials_smalldense.c
+  sundials_spbcgs.c
+  sundials_spgmr.c
+  Compiling...
+  sundials_sptfqmr.c
+  gettime.cpp
+  main.cpp
+main.cpp(16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'time_t'
+  main.cpp(16): note: consider using '%lld' in the format string
+  main.cpp(16): note: consider using '%I64d' in the format string
+  wormsim.cpp
+wormsim.cpp(52): warning C4005: 'HALFPI': macro redefinition
+  wormsim.cpp(22): note: see previous definition of 'HALFPI'
+wormsim.cpp(791): warning C4101: 'F_EXT': unreferenced local variable
+wormsim.cpp(790): warning C4101: 'L_EXT': unreferenced local variable
+wormsim.cpp(786): warning C4101: 'T': unreferenced local variable
+  Generating code
+  All 188 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  worm.vcxproj -> C:\Users\Tom Portegys\Downloads\WormSim\Model\Release\worm.exe
+  worm.vcxproj -> C:\Users\Tom Portegys\Downloads\WormSim\Model\Release\worm.pdb (Full PDB)
